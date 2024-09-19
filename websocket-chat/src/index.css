@@ -1,0 +1,71 @@
+.select-box {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: -70px;
+}
+
+.select {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 600px;
+  height: 600px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  padding: 15px;
+  background-color: #eac300;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.main {
+  height: 450px;
+  overflow-y: scroll;
+  padding: 10px;
+}
+
+.currentUser {
+  text-align: right;
+  background-color: #eac300;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.targetUser {
+  text-align: left;
+  background-color: #ddd;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.chatbox {
+  width: 550px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.chatbox input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+} 
